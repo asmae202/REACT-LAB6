@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+✨🌟 TP React – Formulaires et Gestion d’Événements 🌟✨
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+────────────────────────────
+🎯 Objectif
+────────────────────────────
 
-## Available Scripts
+Mettre en pratique les concepts fondamentaux de React :
 
-In the project directory, you can run:
+Gestion de l’état avec useState
 
-### `npm start`
+Création de formulaires contrôlés
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Gestion des événements (onClick, onChange, onSubmit)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Affichage dynamique des valeurs saisies
 
-### `npm test`
+Respect du flux unidirectionnel des données
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+────────────────────────────
+🧩 Composants
+────────────────────────────
 
-### `npm run build`
+🌸 Formulaire : formulaire simple avec un champ Nom et bouton d’envoi.
+🌸 FormulaireNomEmail : formulaire avec deux champs (Nom et Email)
+🌸 Affichage dynamique : les valeurs saisies sont affichées en direct sous le formulaire.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+────────────────────────────
+💡 Concepts clés
+────────────────────────────
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔹 useState : stocker et mettre à jour les valeurs des champs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔹 onChange : déclenché lors de la saisie dans un champ
 
-### `npm run eject`
+🔹 onSubmit : déclenché lors de l’envoi du formulaire
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🔹 preventDefault() : empêche le rechargement automatique de la page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔹 Formulaires contrôlés : la valeur des champs est gérée par l’état React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+────────────────────────────
+🚀 Exécution du projet
+────────────────────────────
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1️⃣ Vérifier que Node.js et npm sont installés
 
-## Learn More
+2️⃣ Installer les dépendances :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3️⃣ Lancer le projet :
 
-### Code Splitting
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4️⃣ Ouvrir dans le navigateur :
 
-### Analyzing the Bundle Size
+http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+────────────────────────────
+📂 Structure du projet
+────────────────────────────
 
-### Making a Progressive Web App
+src
+│
+├── App.js
+├── App.css
+├── Formulaire.js
+├── FormulaireNomEmail.js
+└── index.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+<img width="205" height="388" alt="image" src="https://github.com/user-attachments/assets/ec4b82f7-71c6-4845-b657-05c297c86c3c" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+────────────────────────────
+🔗 Résultat – Formulaire simple
+────────────────────────────
 
-### Deployment
+Le formulaire nom seul permet d’afficher le nom saisi dans une alerte après soumission.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+────────────────────────────
+🔗 Résultat – Formulaire avec nom et email
+────────────────────────────
 
-### `npm run build` fails to minify
+Les deux champs (Nom et Email) :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+affichent les valeurs saisies en direct
+
+déclenchent une alerte lors de la soumission
+
+────────────────────────────
+🔗 Résultat – Affichage dynamique
+────────────────────────────
+
+Sous le formulaire, les valeurs saisies apparaissent automatiquement :
+
+Nom saisi : [valeur]
+
+Email saisi : [valeur]
+
+
+
+
+
+https://github.com/user-attachments/assets/cfa6f3cf-98cd-4c92-b71c-7cd789665a25
+
+
+
+
+────────────────────────────
+🔗 Résultat – Interaction utilisateur
+────────────────────────────
+
+Le bouton Envoyer déclenche onSubmit
+
+Les champs sont contrôlés par React
+
+L’état est mis à jour avec useState
+
+
+
+https://github.com/user-attachments/assets/0cc8fbd2-fed6-411f-88f1-fe591f47f549
+
+
+
+
+
+────────────────────────────
+✨🌟 FIN DU TP 🌟✨

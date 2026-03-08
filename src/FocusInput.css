@@ -1,0 +1,40 @@
+/* src/FocusInput.css */
+
+.focus-card {
+  background-color: #ffffff;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.focus-card h2 {
+  color: #1e90ff;
+  margin-bottom: 20px;
+}
+
+.focus-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.focus-button {
+  padding: 10px 18px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #28a745;
+  transition: background-color 0.2s;
+}
+
+.focus-button:hover {
+  background-color: #1e7e34;
+}

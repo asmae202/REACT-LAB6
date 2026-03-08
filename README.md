@@ -21,7 +21,9 @@ Respect du flux unidirectionnel des données
 ────────────────────────────
 
 🌸 Formulaire : formulaire simple avec un champ Nom et bouton d’envoi.
+
 🌸 FormulaireNomEmail : formulaire avec deux champs (Nom et Email)
+
 🌸 Affichage dynamique : les valeurs saisies sont affichées en direct sous le formulaire.
 
 ────────────────────────────
@@ -60,13 +62,6 @@ http://localhost:3000
 📂 Structure du projet
 ────────────────────────────
 
-src
-│
-├── App.js
-├── App.css
-├── Formulaire.js
-├── FormulaireNomEmail.js
-└── index.js
 
 
 <img width="205" height="388" alt="image" src="https://github.com/user-attachments/assets/ec4b82f7-71c6-4845-b657-05c297c86c3c" />
